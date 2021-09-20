@@ -1,0 +1,99 @@
+/* Fonts &  Colors */
+
+body {
+	background:  rgb(5, 5, 5);
+	color:  rgb(30, 30, 30);
+	font-family:  'Open Sans', sans-serif;
+	font-weight: bolder;
+	margin: 0;
+	text-align: center;
+}
+h1 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 50px;
+	color: whitesmoke;
+}
+h2 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 26px;
+	color : white;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+p {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+
+/*Custom design*/
+#banner {
+	background-image: url("images/BannerImage.png");
+	padding: 200px;
+	background-size: cover;	
+	padding: 100px 0;
+}
+#banner h1 {
+	color: white;
+	text-align: center;
+	font-size: 100px;
+	text-decoration: underline overline ;	
+}
+#banner p {
+	color: white; 
+	text-align: center;
+	font-size: 30px;
+	font-weight: bolder;	
+}
+#banner a {
+	color:  black;
+	font-size: 30px;
+}
+.text {
+	z-index: 1;
+	position: relative;
+}
+.domain {
+	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-size: 100px;
+}
+.domain h2 {
+	font-size: 40px;
+}
+.domain p {
+	font-size: 20px;
+}
+#footer {
+	background: black;
+	color: whitesmoke;
+	font-size: 100px;
+	padding-left: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 10px;
+	text-align:center;	
+}
+#footer p {
+	text-align: center;
+	font-size: 30px ;
+	color: blue;
+}
+#footer a {
+	color: blue;
+	font-size: 100px;
+	text-align:center;
+}
+#footer a:hover {
+	color:  darkred;
+	opacity:  0.5;
+}
+}
